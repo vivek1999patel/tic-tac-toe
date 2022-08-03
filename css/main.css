@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px 50px 50px;
+    width: 70%;
+    margin-left: 15%;
+    background-color: aqua;
+    border: 3px solid red;
+    text-align: center;
+}
+
+.grid {
+    border: 2px dotted red;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    display: inline-block;
+    width: 80px;
+    font-size: 15px;
+    float: right;
+    margin-right: 15%;
+    margin-top: 20px;
+}
