@@ -1,29 +1,58 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
+  background-color: antiquewhite;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 50px 50px 50px;
-    width: 70%;
-    margin-left: 15%;
-    background-color: aqua;
-    border: 3px solid red;
-    text-align: center;
+header {
+  text-align: center;
+  color: brown;
+  margin: 20px;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  width: 100vw;
+}
+
+.flex-box .grid-container {
+  display: grid;
+  height: 30vh;
+  width: 30vw;
+  grid-template-columns: 10vw auto 10vw;
+  grid-template-rows: 10vh 10vh 10vh;
+  margin-left: 30%;
+  row-gap: 5px;
+  column-gap: 5px;
+  background-color: grey;
 }
 
 .grid {
-    border: 2px dotted red;
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: aqua;
+  font-size: 30px;
+  color: brown;
 }
 
-button {
-    display: inline-block;
-    width: 80px;
-    font-size: 15px;
-    float: right;
-    margin-right: 15%;
-    margin-top: 20px;
+.flex-box button {
+  width: 15vw;
+  height: 7vh;
+  margin-left: 5vw;
+  margin-top: 7vh;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 12vh;
+  font-size: 20px;
+  background-color: cadetblue;
+  color: aliceblue;
+}
+
+#message {
+  display: inline;
+  margin-left: 40%;
+  color: brown;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
 }
